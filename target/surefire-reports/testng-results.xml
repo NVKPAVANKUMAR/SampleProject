@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SeleniumPageFactoryExample" duration-ms="73858" started-at="2018-07-06T12:12:42Z" finished-at="2018-07-06T12:13:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="73858" started-at="2018-07-06T12:12:42Z" finished-at="2018-07-06T12:13:56Z">
+      <class name="com.tests.TestRunner">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.TestRunner@335eadca]" name="setUp" is-config="true" duration-ms="7166" started-at="2018-07-06T12:12:35Z" finished-at="2018-07-06T12:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInNlogOutTest(java.lang.String, java.lang.String)[pri:1, instance:com.tests.TestRunner@335eadca]" name="logInNlogOutTest" duration-ms="22094" started-at="2018-07-06T12:12:42Z" data-provider="loginCredentials" finished-at="2018-07-06T12:13:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ADMIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[124556]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInNlogOutTest -->
+        <test-method status="PASS" signature="logInNlogOutTest(java.lang.String, java.lang.String)[pri:1, instance:com.tests.TestRunner@335eadca]" name="logInNlogOutTest" duration-ms="21400" started-at="2018-07-06T12:13:04Z" data-provider="loginCredentials" finished-at="2018-07-06T12:13:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wefrgefdr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInNlogOutTest -->
+        <test-method status="PASS" signature="logInNlogOutTest(java.lang.String, java.lang.String)[pri:1, instance:com.tests.TestRunner@335eadca]" name="logInNlogOutTest" duration-ms="8185" started-at="2018-07-06T12:13:25Z" data-provider="loginCredentials" finished-at="2018-07-06T12:13:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInNlogOutTest -->
+        <test-method status="PASS" signature="logInNlogOutTest(java.lang.String, java.lang.String)[pri:1, instance:com.tests.TestRunner@335eadca]" name="logInNlogOutTest" duration-ms="21819" started-at="2018-07-06T12:13:33Z" data-provider="loginCredentials" finished-at="2018-07-06T12:13:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInNlogOutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.TestRunner@335eadca]" name="tearDown" is-config="true" duration-ms="340" started-at="2018-07-06T12:13:55Z" finished-at="2018-07-06T12:13:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- SeleniumPageFactoryExample -->
+</testng-results>

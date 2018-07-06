@@ -1,0 +1,7 @@
+com\pages\HomePage.class
+com\pages\DashboardPage.class
+com\utilities\ExcelDataParser.class
+com\utilities\ReportGenerator.class
+com\utilities\ScreenshotUtility.class
+com\utilities\ConfigParser.class
+com\driver\BrowserInstance.class
