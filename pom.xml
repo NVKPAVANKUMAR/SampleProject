@@ -120,7 +120,7 @@
                             <mailAltConfig>true</mailAltConfig>
                             <!-- Email Authentication(Username and Password) -->
                             <mailuser>npavankumar144@gmail.com</mailuser>
-                            <mailpassword>omsairam144144</mailpassword>
+                            <mailpassword>************</mailpassword>
                             <receivers>
                                 <!-- To Email address -->
                                 <receiver>nvkpavan1@gmail.com</receiver>
