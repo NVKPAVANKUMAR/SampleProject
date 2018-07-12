@@ -11,9 +11,9 @@ import java.io.IOException;
 
 public class ScreenshotUtility {
 
-    public static void takeScreenshot(WebDriver driver,String scrName) throws IOException {
+    public static void takeScreenshot(WebDriver driver, String scrName) throws IOException {
         String destFilePath = "target/screenshot-" + scrName + ".png";
-        File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(src, new File(destFilePath));
     }
 }

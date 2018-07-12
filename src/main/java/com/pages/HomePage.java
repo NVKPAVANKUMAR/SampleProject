@@ -21,7 +21,7 @@ public class HomePage {
     @FindBy(id = "MemberLoginForm_LoginForm_action_doLogin")
     private WebElement loginbutton;
 
-    @FindBy(id="MemberLoginForm_LoginForm_error")
+    @FindBy(id = "MemberLoginForm_LoginForm_error")
     private WebElement loginErrorMsg;
 
     public void enterUsername(String username, ExtentTest logger) {
@@ -30,7 +30,7 @@ public class HomePage {
         logger.info("username entered");
     }
 
-    public void enterPassword(String password,ExtentTest logger) {
+    public void enterPassword(String password, ExtentTest logger) {
         passwordfield.clear();
         passwordfield.sendKeys(password);
         logger.info("password entered");
@@ -41,10 +41,10 @@ public class HomePage {
         logger.info("Login Button Clicked");
     }
 
-    public boolean errorMsgPresent(WebDriver driver){
-        WebDriverWait wait = new WebDriverWait(driver,10);
+    public boolean errorMsgPresent(WebDriver driver) {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOf(loginErrorMsg));
-      return loginErrorMsg.isDisplayed();
+        return loginErrorMsg.isDisplayed();
     }
 
 

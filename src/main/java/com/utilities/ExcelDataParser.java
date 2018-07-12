@@ -1,14 +1,16 @@
 package com.utilities;
 
 import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.DataProvider;
-import java.io.FileInputStream;
-import java.io.IOException;
+
+import java.io.*;
 import java.lang.reflect.Method;
 
 public class ExcelDataParser {
+
     static DataFormatter formatter;
 
     @DataProvider(name = "Excel")
@@ -49,6 +51,22 @@ public class ExcelDataParser {
             Object[][] testData = new Object[2][3];
             return testData;
         }
+
+    }
+
+    public static void writeToExcel(int rowCount, int columnCount, String filepath, String sheetName, String message) throws IOException {
+        try {
+            FileInputStream input = new FileInputStream(filepath);
+            XSSFWorkbook wb = new XSSFWorkbook(input);
+            XSSFSheet sh = wb.getSheet(sheetName);
+            XSSFRow row = sh.getRow(rowCount);
+            FileOutputStream webData = new FileOutputStream(filepath);
+            row.createCell(columnCount).setCellValue(message);
+            wb.write(webData);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
     }
 
 

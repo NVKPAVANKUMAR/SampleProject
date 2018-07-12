@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="SeleniumPageFactoryExample" duration-ms="73858" started-at="2018-07-06T12:12:42Z" finished-at="2018-07-06T12:13:56Z">
+  <suite name="SeleniumPageFactoryExample" duration-ms="50775" started-at="2018-07-12T08:59:23Z" finished-at="2018-07-12T09:00:14Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="73858" started-at="2018-07-06T12:12:42Z" finished-at="2018-07-06T12:13:56Z">
+    <test name="Test" duration-ms="50775" started-at="2018-07-12T08:59:23Z" finished-at="2018-07-12T09:00:14Z">
       <class name="com.tests.TestRunner">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.TestRunner@335eadca]" name="setUp" is-config="true" duration-ms="7166" started-at="2018-07-06T12:12:35Z" finished-at="2018-07-06T12:12:42Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.TestRunner@210366b4]" name="setUp" is-config="true" duration-ms="6473" started-at="2018-07-12T08:59:17Z" finished-at="2018-07-12T08:59:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="logInNlogOutTest(java.lang.String, java.lang.String)[pri:1, instance:com.tests.TestRunner@335eadca]" name="logInNlogOutTest" duration-ms="22094" started-at="2018-07-06T12:12:42Z" data-provider="loginCredentials" finished-at="2018-07-06T12:13:04Z">
+        <test-method status="PASS" signature="LoginPageTest(java.lang.String, java.lang.String)[pri:2, instance:com.tests.TestRunner@210366b4]" name="LoginPageTest" duration-ms="24816" started-at="2018-07-12T08:59:23Z" data-provider="Excel" finished-at="2018-07-12T08:59:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USERNAME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PASSWORD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTest -->
+        <test-method status="PASS" signature="LoginPageTest(java.lang.String, java.lang.String)[pri:2, instance:com.tests.TestRunner@210366b4]" name="LoginPageTest" duration-ms="22089" started-at="2018-07-12T08:59:48Z" data-provider="Excel" finished-at="2018-07-12T09:00:10Z">
           <params>
             <param index="0">
               <value>
@@ -20,30 +36,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[124556]]>
+                <![CDATA[PASSWORD]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logInNlogOutTest -->
-        <test-method status="PASS" signature="logInNlogOutTest(java.lang.String, java.lang.String)[pri:1, instance:com.tests.TestRunner@335eadca]" name="logInNlogOutTest" duration-ms="21400" started-at="2018-07-06T12:13:04Z" data-provider="loginCredentials" finished-at="2018-07-06T12:13:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[wefrgefdr]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logInNlogOutTest -->
-        <test-method status="PASS" signature="logInNlogOutTest(java.lang.String, java.lang.String)[pri:1, instance:com.tests.TestRunner@335eadca]" name="logInNlogOutTest" duration-ms="8185" started-at="2018-07-06T12:13:25Z" data-provider="loginCredentials" finished-at="2018-07-06T12:13:33Z">
+        </test-method> <!-- LoginPageTest -->
+        <test-method status="PASS" signature="LoginPageTest(java.lang.String, java.lang.String)[pri:2, instance:com.tests.TestRunner@210366b4]" name="LoginPageTest" duration-ms="3071" started-at="2018-07-12T09:00:10Z" data-provider="Excel" finished-at="2018-07-12T09:00:13Z">
           <params>
             <param index="0">
               <value>
@@ -58,24 +58,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logInNlogOutTest -->
-        <test-method status="PASS" signature="logInNlogOutTest(java.lang.String, java.lang.String)[pri:1, instance:com.tests.TestRunner@335eadca]" name="logInNlogOutTest" duration-ms="21819" started-at="2018-07-06T12:13:33Z" data-provider="loginCredentials" finished-at="2018-07-06T12:13:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logInNlogOutTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.TestRunner@335eadca]" name="tearDown" is-config="true" duration-ms="340" started-at="2018-07-06T12:13:55Z" finished-at="2018-07-06T12:13:56Z">
+        </test-method> <!-- LoginPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.TestRunner@210366b4]" name="tearDown" is-config="true" duration-ms="313" started-at="2018-07-12T09:00:13Z" finished-at="2018-07-12T09:00:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
