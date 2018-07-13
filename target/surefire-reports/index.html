@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-SeleniumPageFactoryExample">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumPageFactoryExample" title="com.tests.TestRunner" hash-for-method="LoginPageTest(admin, password)">LoginPageTest(admin, password)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumPageFactoryExample" title="com.tests.TestRunner" hash-for-method="LoginPageTest(USERNAME, PASSWORD)">LoginPageTest(USERNAME, PASSWORD)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -112,7 +112,27 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumPageFactoryExample" title="com.tests.TestRunner" hash-for-method="LoginPageTest(USERNAME, PASSWORD)">LoginPageTest(USERNAME, PASSWORD)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumPageFactoryExample" title="com.tests.TestRunner" hash-for-method="LoginPageTest(admin, password)">LoginPageTest(admin, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumPageFactoryExample" title="com.tests.TestRunner" hash-for-method="logInNlogOutTest(admin, password)">logInNlogOutTest(admin, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumPageFactoryExample" title="com.tests.TestRunner" hash-for-method="logInNlogOutTest(12345, 12345)">logInNlogOutTest(12345, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumPageFactoryExample" title="com.tests.TestRunner" hash-for-method="logInNlogOutTest(wefrgefdr, pass)">logInNlogOutTest(wefrgefdr, pass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumPageFactoryExample" title="com.tests.TestRunner" hash-for-method="logInNlogOutTest(ADMIN, 124556)">logInNlogOutTest(ADMIN, 124556)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-SeleniumPageFactoryExample -->
@@ -135,10 +155,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="LoginPageTest(admin, password)">
-                  </a> <!-- LoginPageTest(admin, password) -->
+                  <a name="LoginPageTest(USERNAME, PASSWORD)">
+                  </a> <!-- LoginPageTest(USERNAME, PASSWORD) -->
                   <span class="method-name">LoginPageTest</span>
-                  <span class="parameters">(admin, password)</span>
+                  <span class="parameters">(USERNAME, PASSWORD)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -151,10 +171,42 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="LoginPageTest(USERNAME, PASSWORD)">
-                  </a> <!-- LoginPageTest(USERNAME, PASSWORD) -->
+                  <a name="LoginPageTest(admin, password)">
+                  </a> <!-- LoginPageTest(admin, password) -->
                   <span class="method-name">LoginPageTest</span>
-                  <span class="parameters">(USERNAME, PASSWORD)</span>
+                  <span class="parameters">(admin, password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInNlogOutTest(admin, password)">
+                  </a> <!-- logInNlogOutTest(admin, password) -->
+                  <span class="method-name">logInNlogOutTest</span>
+                  <span class="parameters">(admin, password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInNlogOutTest(12345, 12345)">
+                  </a> <!-- logInNlogOutTest(12345, 12345) -->
+                  <span class="method-name">logInNlogOutTest</span>
+                  <span class="parameters">(12345, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInNlogOutTest(wefrgefdr, pass)">
+                  </a> <!-- logInNlogOutTest(wefrgefdr, pass) -->
+                  <span class="method-name">logInNlogOutTest</span>
+                  <span class="parameters">(wefrgefdr, pass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInNlogOutTest(ADMIN, 124556)">
+                  </a> <!-- logInNlogOutTest(ADMIN, 124556) -->
+                  <span class="method-name">logInNlogOutTest</span>
+                  <span class="parameters">(ADMIN, 124556)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -211,24 +263,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'LoginPageTest')
+data.setCell(0, 1, 'logInNlogOutTest')
 data.setCell(0, 2, 'com.tests.TestRunner')
-data.setCell(0, 3, 24816);
+data.setCell(0, 3, 23127);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'LoginPageTest')
+data.setCell(1, 1, 'logInNlogOutTest')
 data.setCell(1, 2, 'com.tests.TestRunner')
-data.setCell(1, 3, 22089);
+data.setCell(1, 3, 22600);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'LoginPageTest')
 data.setCell(2, 2, 'com.tests.TestRunner')
-data.setCell(2, 3, 3071);
+data.setCell(2, 3, 22490);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LoginPageTest')
+data.setCell(3, 2, 'com.tests.TestRunner')
+data.setCell(3, 3, 21745);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'logInNlogOutTest')
+data.setCell(4, 2, 'com.tests.TestRunner')
+data.setCell(4, 3, 21239);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logInNlogOutTest')
+data.setCell(5, 2, 'com.tests.TestRunner')
+data.setCell(5, 3, 9762);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LoginPageTest')
+data.setCell(6, 2, 'com.tests.TestRunner')
+data.setCell(6, 3, 2514);
 window.suiteTableData['SeleniumPageFactoryExample']= { tableData: data, tableDiv: 'times-div-SeleniumPageFactoryExample'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 49 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-SeleniumPageFactoryExample">
               </div> <!-- times-div-SeleniumPageFactoryExample -->
             </div> <!-- times-div -->
@@ -260,20 +328,36 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
+                <span class="method-name">logInNlogOutTest(ADMIN, 124556)</span>
+                <span class="method-start">11296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logInNlogOutTest(wefrgefdr, pass)</span>
+                <span class="method-start">34424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logInNlogOutTest(admin, password)</span>
+                <span class="method-start">57024 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logInNlogOutTest(12345, 12345)</span>
+                <span class="method-start">66786 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">LoginPageTest(USERNAME, PASSWORD)</span>
-                <span class="method-start">6952 ms</span>
+                <span class="method-start">89008 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">LoginPageTest(ADMIN, PASSWORD)</span>
-                <span class="method-start">31769 ms</span>
+                <span class="method-start">110753 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">LoginPageTest(admin, password)</span>
-                <span class="method-start">53859 ms</span>
+                <span class="method-start">133243 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">56931 ms</span>
+                <span class="method-start">135758 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
