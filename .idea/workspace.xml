@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="322d8b04-ecac-48c7-8a49-c4d7fc9523bd" name="Default" comment="" />
+    <list default="true" id="322d8b04-ecac-48c7-8a49-c4d7fc9523bd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,15 +26,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScreenshotUtility.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/utilities/ScreenshotUtility.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DashboardPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pages/DashboardPage.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -44,8 +38,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-80">
-              <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+            <state relative-caret-position="320">
+              <caret line="131" column="24" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -80,8 +74,17 @@
       <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2175">
-              <caret line="101" column="20" lean-forward="true" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+            <state relative-caret-position="1050">
+              <caret line="101" column="20" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testNG.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testNG.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -138,10 +141,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/driver/BrowserInstance.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/utilities/ExcelDataParser.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/driver/DriverInstance.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tests/TestRunner.java" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -857,13 +860,6 @@
     <entry file="file://$PROJECT_DIR$/target/screenshot-LoginFailure.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/testNG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Configuration/config.Properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -937,13 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2175">
-          <caret line="101" column="20" lean-forward="true" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
@@ -951,10 +940,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="101" column="20" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        <state relative-caret-position="320">
+          <caret line="131" column="24" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
         </state>
       </provider>
     </entry>

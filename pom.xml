@@ -76,26 +76,26 @@
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>ch.fortysix</groupId>
-                <artifactId>maven-postman-plugin</artifactId>
-                <version>0.1.6</version>
-                <executions>
-                    <execution>
-                        <id>Report Generation</id>
-                        <phase>test</phase>
-                        <goals>
-                            <goal>send-mail</goal>
-                        </goals>
-                        <inherited>true</inherited>
-                        <configuration>
-                            <!-- From Email address -->
+            <!--<plugin>
+                  <groupId>ch.fortysix</groupId>
+                  <artifactId>maven-postman-plugin</artifactId>
+                  <version>0.1.6</version>
+                  <executions>
+                      <execution>
+                          <id>Report Generation</id>
+                          <phase>test</phase>
+                          <goals>
+                              <goal>send-mail</goal>
+                          </goals>
+                          <inherited>true</inherited>
+                          <configuration>
+                              &lt;!&ndash; From Email address &ndash;&gt;
                             <from>npavankumar144@gmail.com</from>
-                            <!-- Email subject -->
+                            &lt;!&ndash; Email subject &ndash;&gt;
                             <subject>Selenium Test Automation Report</subject>
-                            <!-- Fail the build if the mail doesn't reach -->
+                            &lt;!&ndash; Fail the build if the mail doesn't reach &ndash;&gt;
                             <failonerror>false</failonerror>
-                            <!-- Email Body Content -->
+                            &lt;!&ndash; Email Body Content &ndash;&gt;
                             <htmlMessage>
                                 <![CDATA[
                                     <p>New test build triggered!</p>
@@ -103,25 +103,25 @@
                                     ]]>
 
                             </htmlMessage>
-                            <!-- host -->
+                            &lt;!&ndash; host &ndash;&gt;
                             <mailhost>smtp.gmail.com</mailhost>
-                            <!-- port of the host -->
+                            &lt;!&ndash; port of the host &ndash;&gt;
                             <mailport>465</mailport>
                             <mailssl>true</mailssl>
                             <mailAltConfig>true</mailAltConfig>
-                            <!-- Email Authentication(Username and Password) -->
+                            &lt;!&ndash; Email Authentication(Username and Password) &ndash;&gt;
                             <mailuser>npavankumar144@gmail.com</mailuser>
                             <mailpassword>*************</mailpassword>
                             <receivers>
-                                <!-- To Email address -->
+                                &lt;!&ndash; To Email address &ndash;&gt;
                                 <receiver>nvkpavan1@gmail.com</receiver>
                             </receivers>
                             <fileSets>
                                 <fileSet>
-                                    <!-- Report directory Path -->
+                                    &lt;!&ndash; Report directory Path &ndash;&gt;
                                     <directory>test-output</directory>
                                     <includes>
-                                        <!-- Report file name -->
+                                        &lt;!&ndash; Report file name &ndash;&gt;
                                         <include>STMExtentReport.html</include>
                                     </includes>
                                 </fileSet>
@@ -129,7 +129,7 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 </project>
