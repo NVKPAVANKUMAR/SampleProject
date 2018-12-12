@@ -1,8 +1,6 @@
 package com.utilities;
 
 import java.io.FileInputStream;
-import java.io.IOException;
-import java.rmi.server.ExportException;
 import java.util.Properties;
 
 public class ConfigParser {

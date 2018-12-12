@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class DashboardPage {
 
-    @FindBy(xpath = "//*[@title=\"Log out\"]")
+    @FindBy(xpath = "//*[@title='Log out']")
     private WebElement logoutIcon;
 
     @FindBy(className = "cms-login-status__profile-link")

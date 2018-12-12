@@ -2,10 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="322d8b04-ecac-48c7-8a49-c4d7fc9523bd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/driver/DriverInstance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/config.Properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/config.Properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Results - C__Users_pavan_nemalikanti_IdeaProjects_SampleProject_testNG_xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test Results - C__Users_pavan_nemalikanti_IdeaProjects_SampleProject_testNG_xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Results - TestRunner_LoginPageTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test Results - TestRunner_LoginPageTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/driver/BrowserInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/driver/BrowserInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utilities/ConfigParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utilities/ConfigParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utilities/ExcelDataParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utilities/ExcelDataParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utilities/ReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utilities/ReportGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tests/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/driver/BrowserInstance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/driver/BrowserInstance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pages/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pages/DashboardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utilities/ConfigParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utilities/ConfigParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utilities/ExcelDataParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utilities/ExcelDataParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utilities/ReportGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utilities/ReportGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot-LoginFailure.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshot-LoginFailure.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot-LoginSuccess.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshot-LoginSuccess.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SeleniumPageFactoryExample/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/SeleniumPageFactoryExample/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SeleniumPageFactoryExample/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/SeleniumPageFactoryExample/Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.tests.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.tests.TestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/SeleniumPageFactoryExample/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/SeleniumPageFactoryExample/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/SeleniumPageFactoryExample/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/SeleniumPageFactoryExample/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tests/TestRunner$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tests/TestRunner$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tests/TestRunner$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tests/TestRunner$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tests/TestRunner$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tests/TestRunner$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/tests/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tests/TestRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/STMExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/STMExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/SeleniumPageFactoryExample/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SeleniumPageFactoryExample/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/SeleniumPageFactoryExample/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SeleniumPageFactoryExample/Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.tests.Test_HomePage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.tests.Test_HomePage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/SeleniumPageFactoryExample/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/SeleniumPageFactoryExample/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/SeleniumPageFactoryExample/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/SeleniumPageFactoryExample/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/SeleniumPageFactoryExample/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/SeleniumPageFactoryExample/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/SeleniumPageFactoryExample/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/SeleniumPageFactoryExample/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/SeleniumPageFactoryExample/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/SeleniumPageFactoryExample/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/SeleniumPageFactoryExample/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/SeleniumPageFactoryExample/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/SeleniumPageFactoryExample/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/SeleniumPageFactoryExample/reporter-output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/SeleniumPageFactoryExample/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/SeleniumPageFactoryExample/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/SeleniumPageFactoryExample/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/SeleniumPageFactoryExample/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,53 +70,8 @@
       <file leaf-file-name="ReportGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/utilities/ReportGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pages/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/utilities/ConfigParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DashboardPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pages/DashboardPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-871">
-              <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testNG.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testNG.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="25">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -76,8 +79,44 @@
       <file leaf-file-name="ScreenshotUtility.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/utilities/ScreenshotUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="200">
               <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DashboardPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pages/DashboardPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DriverInstance.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/driver/DriverInstance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-25">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/utilities/ConfigParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -85,29 +124,26 @@
       <file leaf-file-name="ExcelDataParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/utilities/ExcelDataParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="25">
+              <caret line="30" column="75" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1809">
-              <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+            <state relative-caret-position="75">
+              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExcelReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/utilities/ExcelReader.java">
+      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -121,6 +157,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>test</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -133,16 +174,17 @@
         <option value="$PROJECT_DIR$/src/test/java/com/tests/Test_HomePage.java" />
         <option value="$PROJECT_DIR$/testNG.xml" />
         <option value="$PROJECT_DIR$/extent_config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pages/DashboardPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/utilities/ReportGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/driver/BrowserInstance.java" />
         <option value="$PROJECT_DIR$/Configuration/config.Properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/utilities/ExcelDataParser.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tests/TestRunner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/utilities/ScreenshotUtility.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/utilities/ExcelReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pages/DashboardPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/driver/BrowserInstance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utilities/ExcelDataParser.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/driver/DriverInstance.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tests/TestRunner.java" />
       </list>
     </option>
   </component>
@@ -154,10 +196,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-52" />
-    <option name="y" value="348" />
-    <option name="width" value="1378" />
-    <option name="height" value="733" />
+    <option name="x" value="563" />
+    <option name="y" value="6" />
+    <option name="width" value="1364" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -165,18 +207,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="SampleProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="SampleProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SampleProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SampleProject" type="462c0819:PsiDirectoryNode" />
-              <item name="dataSheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SampleProject" type="b2602c69:ProjectViewProjectNode" />
@@ -252,22 +288,36 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SampleProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SampleProject" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SampleProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SampleProject" type="462c0819:PsiDirectoryNode" />
+              <item name="test-output" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Git/bin/git.exe" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.driver" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pavan.nemalikanti\IdeaProjects\SampleProject\dataSheets" />
       <recent name="C:\Users\pavan.nemalikanti\IdeaProjects\SampleProject\DriverJars" />
@@ -285,7 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ExcelReader.readData">
+  <component name="RunManager" selected="TestNG.TestRunner.logInNlogOutTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -503,11 +553,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestRunner.logInNlogOutTest" />
+        <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="TestNG.ExcelReader.readData" />
         <item itemvalue="TestNG.C:/Users/pavan.nemalikanti/IdeaProjects/SampleProject/testNG.xml" />
         <item itemvalue="TestNG.TestRunner.LoginPageTest" />
-        <item itemvalue="TestNG.TestRunner.logInNlogOutTest" />
-        <item itemvalue="TestNG.TestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -525,21 +575,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExcelReader_readData - 2018.07.12 at 18h 49m 02s.xml">
-      <configuration name="ExcelReader.readData" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExcelReader_readData - 2018.07.12 at 18h 49m 52s.xml">
-      <configuration name="ExcelReader.readData" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExcelReader_readData - 2018.07.12 at 18h 50m 22s.xml">
-      <configuration name="ExcelReader.readData" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExcelReader_readData - 2018.07.12 at 18h 51m 24s.xml">
-      <configuration name="ExcelReader.readData" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExcelReader_readData - 2018.07.12 at 18h 51m 36s.xml">
-      <configuration name="ExcelReader.readData" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ExcelReader_readData - 2018.07.12 at 18h 52m 00s.xml">
       <configuration name="ExcelReader.readData" configurationId="TestNG" />
     </history-entry>
@@ -555,10 +590,24 @@
     <history-entry file="ExcelReader_readData - 2018.07.12 at 18h 54m 30s.xml">
       <configuration name="ExcelReader.readData" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestRunner_logInNlogOutTest - 2018.07.17 at 14h 23m 20s.xml">
+      <configuration name="TestRunner.logInNlogOutTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2018.07.31 at 13h 30m 52s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2018.10.05 at 16h 25m 37s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2018.10.11 at 19h 53m 24s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner_logInNlogOutTest - 2018.12.12 at 18h 12m 45s.xml">
+      <configuration name="TestRunner.logInNlogOutTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -566,15 +615,17 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32913387" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32913387" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5622047" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.77322835" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8614173" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.77322835" />
+      <window_info anchor="right" id="JSON Viewer" order="4" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19838946" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19985358" />
       <window_info anchor="bottom" id="ConsoleMavenPlugin" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Maven-2 Build" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -582,12 +633,12 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.64409447" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -599,20 +650,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/driver/BrowserInstance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testNG.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -864,90 +901,97 @@
     <entry file="file://$PROJECT_DIR$/target/screenshot-LoginFailure.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Configuration/config.Properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/driver/BrowserInstance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utilities/ConfigParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utilities/ReportGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utilities/ScreenshotUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testNG.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="225">
           <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pages/DashboardPage.java">
+    <entry file="file://$PROJECT_DIR$/Configuration/config.Properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1809">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/utilities/ExcelReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="425">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utilities/ScreenshotUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pages/DashboardPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/utilities/ExcelDataParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="25">
+          <caret line="30" column="75" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utilities/ConfigParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/driver/BrowserInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-871">
-          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        <state relative-caret-position="400">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/driver/DriverInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/STMExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utilities/ReportGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -991,7 +1035,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>Android API 19 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

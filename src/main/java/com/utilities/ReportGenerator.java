@@ -7,8 +7,8 @@ import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ReportGenerator {
-    private static ExtentReports extent;
     public static ExtentTest logger;
+    private static ExtentReports extent;
     private static ExtentHtmlReporter htmlReporter;
 
     public static void startReport() {

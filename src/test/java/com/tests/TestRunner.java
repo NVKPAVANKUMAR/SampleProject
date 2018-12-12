@@ -1,28 +1,35 @@
 package com.tests;
 
-import com.driver.BrowserInstance;
+import com.driver.DriverInstance;
 import com.pages.DashboardPage;
 import com.pages.HomePage;
 import com.utilities.ConfigParser;
 import com.utilities.ExcelDataParser;
-import com.utilities.ScreenshotUtility;
 import org.openqa.selenium.support.PageFactory;
-
-import org.testng.annotations.*;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-import static com.utilities.ExcelDataParser.writeToExcel;
-import static com.utilities.ReportGenerator.endReport;
-import static com.utilities.ReportGenerator.startReport;
-import static com.utilities.ReportGenerator.startTest;
-import static com.utilities.ReportGenerator.logger;
+import static com.utilities.ReportGenerator.*;
 import static com.utilities.ScreenshotUtility.takeScreenshot;
 
-public class TestRunner extends BrowserInstance {
+public class TestRunner extends DriverInstance {
     private HomePage homePage;
     private DashboardPage dashboardPage;
     private String successStatus = "PASS", failureMessage = "FAIL";
+
+    @DataProvider(name = "loginCredentials")
+    public static Object[][] provideLoginCredentials() {
+        return new Object[][]{
+                {"ADMIN", "124556"},
+                {"wefrgefdr", "pass"},
+                {"admin", "password"},
+                {"12345", "12345"}
+        };
+    }
 
     @BeforeSuite
     public void setUp() throws IOException {
@@ -94,15 +101,5 @@ public class TestRunner extends BrowserInstance {
     public void tearDown() {
         endReport();
         driver.quit();
-    }
-
-    @DataProvider(name = "loginCredentials")
-    public static Object[][] provideLoginCredentials() {
-        return new Object[][]{
-                {"ADMIN", "124556"},
-                {"wefrgefdr", "pass"},
-                {"admin", "password"},
-                {"12345", "12345"}
-        };
     }
 }

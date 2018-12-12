@@ -6,28 +6,29 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.DataProvider;
 
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.lang.reflect.Method;
 
 public class ExcelDataParser {
 
-    static DataFormatter formatter;
+    private static DataFormatter formatter;
 
     @DataProvider(name = "Excel")
     public static Object[][] testDataGenerator(Method m) throws IOException {
         if (m.getName().equalsIgnoreCase("LoginPageTest")) {
             FileInputStream file = new FileInputStream("dataSheets/TestSheet.xlsx");
             XSSFWorkbook book = new XSSFWorkbook(file);
-            XSSFSheet credntialSheet = book.getSheetAt(1);
-            int numberOfRowData = credntialSheet.getRow(1).getPhysicalNumberOfCells();
+            XSSFSheet credentialSheet = book.getSheetAt(1);
+            int numberOfRowData = credentialSheet.getRow(1).getPhysicalNumberOfCells();
             System.out.println(numberOfRowData);
-            int ColNum = credntialSheet.getRow(0).getLastCellNum();
-            //int ColNum= Row.getLastCellNum();
+            int ColNum = credentialSheet.getRow(0).getLastCellNum();
             Object[][] testData = new Object[numberOfRowData][ColNum - 1];
             formatter = new DataFormatter();
             for (int i = 0; i < numberOfRowData; i++) {
-                String username = formatter.formatCellValue(credntialSheet.getRow(i).getCell(0));
-                String password = formatter.formatCellValue(credntialSheet.getRow(i).getCell(1));
+                String username = formatter.formatCellValue(credentialSheet.getRow(i).getCell(0));
+                String password = formatter.formatCellValue(credentialSheet.getRow(i).getCell(1));
                 testData[i][0] = username;
                 testData[i][1] = password;
                 System.out.println(i + " " + testData[i][0] + " " + testData[i][1]);

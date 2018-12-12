@@ -8,14 +8,12 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.logging.Logger;
-
 public class HomePage {
 
     @FindBy(how = How.ID, using = "MemberLoginForm_LoginForm_Email")
     private WebElement userNamefield;
 
-    @FindBy(xpath = "//*[@name=\"Password\"]")
+    @FindBy(xpath = "//*[@name='Password']")
     private WebElement passwordfield;
 
     @FindBy(id = "MemberLoginForm_LoginForm_action_doLogin")

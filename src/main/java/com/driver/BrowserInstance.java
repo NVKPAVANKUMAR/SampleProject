@@ -2,14 +2,11 @@ package com.driver;
 
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.annotations.BeforeMethod;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,15 +15,14 @@ import java.util.concurrent.TimeUnit;
 
 public class BrowserInstance {
 
-    public static WebDriver driver;
+    private static final String USERNAME = "nvkpavankumar2";
+    private static final String AUTOMATE_KEY = "AET4cyqprWngmzYvyK8m";
+    private static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
+    protected static WebDriver driver;
     private static ChromeDriverService service;
     private static ChromeOptions option;
-    public static final String USERNAME = "nvkpavankumar2";
-    public static final String AUTOMATE_KEY = "AET4cyqprWngmzYvyK8m";
-    public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
 
-
-    public static void initiateDriver(String browserName) throws IOException {
+    protected static void initiateDriver(String browserName) throws IOException {
         if (browserName.equalsIgnoreCase("chrome")) {
             service = new ChromeDriverService.Builder()
                     .usingDriverExecutable(new File("DriverJars/chromedriver.exe"))
@@ -53,7 +49,7 @@ public class BrowserInstance {
         driver.manage().window().maximize();
     }
 
-    public void openUrl(String url) {
+    protected void openUrl(String url) {
         driver.get(url);
     }
 }
